@@ -1,13 +1,17 @@
 {
   "name": "article-collection",
   "version": "1.0.0",
-  "description": "文章收藏系统",
-  "main": "api/articles.js",
+  "description": "文章收藏系统 - 现代化的文章收藏和整理工具",
+  "main": "server.js",
   "scripts": {
-    "dev": "node server.js",
     "start": "node server.js"
   },
-  "keywords": ["article", "collection", "feishu"],
+  "keywords": [
+    "article",
+    "collection",
+    "feishu",
+    "vercel"
+  ],
   "author": "小爪 & 周老板",
   "license": "MIT",
   "dependencies": {
