@@ -155,8 +155,7 @@ time: fields[FIELD_IDS.time] || ''
 }
 
 // 静态文件服务
-app.use('/js', express.static(path.join(__dirname, 'public', 'js')));
-app.use('/public', express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public')));
 
 // API 路由
 app.get('/api/articles', async (req, res) => {
